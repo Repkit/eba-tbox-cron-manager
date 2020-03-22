@@ -1,0 +1,6 @@
+unit-tests-runner:
+  before_script:
+    - composer install --no-progress
+  script:
+    - vendor/bin/phpunit -c ./data/phpunit-test/phpunit.xml
+  after_script:

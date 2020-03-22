@@ -1,0 +1,15 @@
+{
+    "name": "eba-libraries/cron-manager",
+    "type": "package",
+    "description": "Manage crontab",
+    "keywords": ["php","crontab", "cron-job"],
+    "require": {
+        "php": ">=5.4"
+    },
+     "require-dev": {
+         "phpunit/phpunit": "4.8.26"
+     },
+    "autoload": {
+        "psr-4": {"TBoxCronManager\\": "src/TBoxCronManager"}
+    }
+}
